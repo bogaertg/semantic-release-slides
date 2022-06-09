@@ -1,7 +1,7 @@
 {
-  "name": "sfeirschoolxxx",
+  "name": "sfeir-share-semantic-release",
   "version": "1.0.0",
-  "description": "Sfeir School XXX with revealJS",
+  "description": "Sfeir Share Semantic Release",
   "scripts": {
     "sass": "node-sass ./scss/slides.scss -o ./css/ --source-map=true --watch=\"scss\" --recursive=\"scss\"",
     "sass-once": "node-sass ./scss/slides.scss -o ./css/ --source-map=true ",
