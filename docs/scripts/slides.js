@@ -1,6 +1,9 @@
 // One method per module
 function schoolSlides() {
-  return ['00-school/00-TITLE.md', '00-school/speaker-jef.md'];
+  return ['00-school/00-TITLE.md',
+          '00-school/speaker-ameausone.md',
+          '00-school/speaker-gbogaert.md'
+         ];
 }
 
 function introSlides() {

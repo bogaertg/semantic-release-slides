@@ -8,8 +8,12 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "live-server --port=4242 --open=\"./index.html\" --watch=\"markdown,scripts/\"",
     "start": "parallelshell \"npm run serve\" \"npm run sass\"",
+    "prepare": "rm -rf web_modules && parallelshell \"npm run copy-modules\"",
+    "copy-highlight": "cpx \"node_modules/highlight.js/**/*\" \"web_modules/highlight.js\" ",
     "copy-reveal": "cpx \"node_modules/reveal.js/**/*\" \"web_modules/reveal.js\" ",
-    "prepare": "rm -rf web_modules && parallelshell \"npm run copy-reveal\"   \"snowpack --optimize\""
+    "copy-theme": "cpx \"node_modules/sfeir-school-theme/**/*\" \"web_modules/sfeir-school-theme\" ",
+    "copy-lit": "cpx \"node_modules/lit-html/**/*\" \"web_modules/lit-html\" ",
+    "copy-modules": "parallelshell \"npm run copy-reveal\" \"npm run copy-theme\" \"npm run copy-lit\" \"npm run copy-highlight\" "
   },
   "repository": {
     "type": "git",
@@ -29,7 +33,7 @@
     "highlight.js": "^9.15.6",
     "lit-html": "^1.3.0",
     "reveal.js": "^3.9.2",
-    "sfeir-school-theme": "^2.0.1"
+    "sfeir-school-theme": "^2.2.0"
   },
   "devDependencies": {
     "chokidar-cli": "^1.2.2",
