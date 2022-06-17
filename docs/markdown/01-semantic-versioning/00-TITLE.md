@@ -1,6 +1,5 @@
 <!-- .slide: class="transition bg-pink" -->
 
-# Introduction
+# Semantic Versioning
 
-##--##
 
