@@ -52,14 +52,15 @@ Steps :
 # Plugins
 ## List
 
-* @semantic-release/commit-analyzer // analyse commit
-* @semantic-release/release-notes-generator //
-* @semantic-release/npm
-* @semantic-release/github
-* @semantic-release/gitlab
-* @semantic-release/git
-* @semantic-release/changelog
-* @semantic-release/exec
+* @semantic-release/commit-analyzer         # Analyze commits
+* @semantic-release/release-notes-generator # Generate notes
+* @semantic-release/npm                     # Publish packages to NPM
+* @semantic-release/github                  # Publish a GitHub release ... and comment on released Pull Requests/Issues.
+* @semantic-release/gitlab                  # Publish to GitLab
+* @semantic-release/git                     # Commit release assets to the project's git repository.
+* @semantic-release/changelog               # Generate changelog
+* @semantic-release/exec                    # Execute custom shell commands (e.g. mvn release:prepare)
 ... and counting
 
-https://semantic-release.gitbook.io/semantic-release/extending/plugins-list#community-plugins
+[official-plugins](https://semantic-release.gitbook.io/semantic-release/extending/plugins-list#official-plugins)
+[community-plugins](https://semantic-release.gitbook.io/semantic-release/extending/plugins-list#community-plugins)
