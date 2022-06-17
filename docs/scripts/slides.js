@@ -7,14 +7,22 @@ function schoolSlides() {
 }
 
 function introSlides() {
-  return ['intro/00-TITLE.md'];
+  return ['01-intro/00-TITLE.md',
+          '01-intro/01-TOC.md',
+          '01-intro/02-Release.md',
+  ];
+}
+
+function introSemVer() {
+  return ['02-semver/00-TITLE.md'];
 }
 
 function formation() {
   return [
     //
     ...schoolSlides(), //
-    ...introSlides() //
+    ...introSlides(),
+    ...introSemVer()//
   ].map(slidePath => {
     return { path: slidePath };
   });
