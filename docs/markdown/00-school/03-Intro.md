@@ -19,7 +19,7 @@
 
 * Date of Release 👉 ([CalVer](https://calver.org/))
   * Ubuntu (18.04, ... , 22.04) => *YY.MM*
-  * Unity (2022.1.0, ... ,  2022.1.4) => *YY.MINOR.MACRO*
+  * Unity (2021.1.0,2022.1.0, ... ,  2022.1.4,) => *YY.MINOR.MACRO*
 * TeX (LaTex)
   * Tex, TeX82, 3,14, 3.141, ... 3.141592653, 𝝅 
 * Windows
