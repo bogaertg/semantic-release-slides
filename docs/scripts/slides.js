@@ -11,24 +11,31 @@ function schoolSlides() {
 function semanticVersioning() {
   return ['01-semantic-versioning/00-TITLE.md',
          '01-semantic-versioning/01-semver.md',
-         '01-semantic-versioning/02-conventional-commits.md'
+  ];
+}
+
+function conventionalCommits() {
+  return ['02-conventional-commits/00-TITLE.md',
+    '02-conventional-commits/01-conventional-commits.md'
   ];
 }
 
 function semanticReleaseConcept() {
-  return ['02-semantic-release-concept/00-TITLE.md',
-          '02-semantic-release-concept/01-fusion.md'
+  return ['03-semantic-release-concept/00-TITLE.md',
+          '03-semantic-release-concept/01-fusion.md'
   ];
 }
 
 function semanticReleaseImplementation() {
-  return ['03-implementation/00-TITLE.md',
-          '03-implementation/01-implementation.md'
+  return ['04-implementation/00-TITLE.md',
+          '04-implementation/01-implementation.md'
   ];
 }
 
 function demo () {
-  return ['04-demo/00-TITLE.md'];
+  return ['05-demo/00-TITLE.md',
+          '05-demo/01-Questions.md'
+  ];
 }
 
 function formation() {
@@ -36,6 +43,7 @@ function formation() {
     //
     ...schoolSlides(), //
     ...semanticVersioning(),
+    ...conventionalCommits(),
     ...semanticReleaseConcept(),//
     ...semanticReleaseImplementation(),//
     ...demo()

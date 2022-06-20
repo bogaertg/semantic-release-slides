@@ -15,16 +15,16 @@
 
 * *fix:* a commit of the type fix patches a bug in your codebase 
 * *feat:* a commit of the type feat introduces a new feature to the codebase .
-* a commit that has a footer *BREAKING CHANGE:*, or appends a ! after the type/scope, introduces a breaking API change. can be part of commits of any type.
+* a commit that has a footer *BREAKING CHANGE:*, introduces a breaking API change. can be part of commits of any type.
 * other types :
-  * build:, chore:, ci:, docs:, style:, refactor:, perf:, test:
+  * build, chore, ci, docs, style, refactor, perf, test
 
 <br/><br/>
 
-Specification available here : [conventionalcommits.org](https://www.conventionalcommits.org/)
+Specification available here : 👉  [conventionalcommits.org](https://www.conventionalcommits.org/)
 
 ##==##
-<!-- .slide: -->`
+<!-- .slide: -->  
 
 # Examples
 
