@@ -14,7 +14,7 @@
 Specification available on 👉 [semver.org](https://semver.org)
 
 ##==##
-<!-- .slide: -->`
+<!-- .slide: -->
 # Semantic Versioning
 
 ## Usage
