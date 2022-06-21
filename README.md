@@ -1,6 +1,6 @@
 # Slides
 
-👉 [here](https://bogaertg.github.io/sfeir-share-semantic-release/#/)
+👉 https://bogaertg.github.io/sfeir-share-semantic-release
 
 # Example repositories
 
