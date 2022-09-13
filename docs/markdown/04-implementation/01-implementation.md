@@ -1,6 +1,14 @@
 <!-- .slide: -->
 # Implementation
-## Installation
+
+- Configuration file
+  - .releaserc file (YAML or JSON)
+- Execute plugins 
+  - commitAnalysers
+  - 
+
+##==##
+# Installation
 
 * Installation
 
