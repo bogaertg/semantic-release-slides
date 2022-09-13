@@ -1,4 +1,5 @@
-<!-- .slide: -->
+<!-- .slide: class="with-code"-->
+
 # Implementation
 
 - Install semantic-release
@@ -7,21 +8,22 @@
   @semantic-release/commit-analyzer         # Analyze commits
   @semantic-release/release-notes-generator # Generate notes
   @semantic-release/npm                     # Publish packages to NPM
-  @semantic-release/github                  # Publish a GitHub release ... and comment on released Pull Requests/Issues.
+  @semantic-release/github                  # Publish a GitHub release
   @semantic-release/gitlab                  # Publish to GitLab
-  @semantic-release/git                     # Commit release assets to the project's git repository.
+  @semantic-release/git                     # Commit release assets to repository
   @semantic-release/changelog               # Generate changelog
-  @semantic-release/exec                    # Execute custom shell commands (e.g. mvn release:prepare)
+  @semantic-release/exec                    # Execute custom commands 
 ```
-<!-- .element: class="list-fragment" -->
+<!-- .element: class="big-code list-fragment" -->
 
 ##==##
+<!-- .slide: class="with-code"-->
 # Configuration
 ## Node
 
 - .releaserc
 
-```json
+```json [|3|4|5-7|8|9-12|13]
 {
   "plugins": [
     "@semantic-release/commit-analyzer",
@@ -45,8 +47,9 @@
 
 - .releaserc
 
-```json
+```json [|2|4|5-7|8|9|10-13|14]
 {
+  "tagFormat": "v${version}",
   "plugins": [
     "@semantic-release/commit-analyzer",
     ["@semantic-release/exec", {

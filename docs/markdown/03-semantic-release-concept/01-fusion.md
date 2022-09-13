@@ -70,7 +70,7 @@ Notes: Get last git tag on selected branch follow the release pattern (default v
 
 <br/>
 
-```text
+```text [1|3-4|5-6|7]
  Found 2 commits since last release
  Start step "analyzeCommits" of plugin "@semantic-release/commit-analyzer"
  Analyzing commit: feat(api): send an email to the customer when a product is shipped
@@ -90,7 +90,7 @@ Notes: plugin to analyze commits with conventional-changelog (default `angular`)
 
 <br/>
 
-```text
+```text [1|3|5]
 Found git tag 1.1.2 associated with version 1.2.0 on branch master
 [...] Analyse commit stuff
 Analysis of 2 commits complete: minor release
