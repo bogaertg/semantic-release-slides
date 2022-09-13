@@ -21,7 +21,8 @@
 - Contributors 187
 - 2014 
 - v19.0.5
-<!-- .element: class="list-fragment" -->
+
+[//]: # (<!-- .element: class="list-fragment" -->)
 
 Notes: C'est un projet opensource
 C'est écrit en javascript
@@ -35,8 +36,12 @@ La dernière version est la 19.0.5
 
 # How it works
 
-![float-right h-600](./assets/images/howdoesitwork.png)
+![center h-600](./assets/images/howdoesitwork.png)
 
+##==##
+
+# How it works
+  
 ##==##
 
 # Get last tag
@@ -45,14 +50,14 @@ La dernière version est la 19.0.5
 <br/>
 
 ```text
-Found git tag 1.360.0 associated with version 1.360.0 on branch master
+Found git tag 1.1.2 associated with version 1.1.2 on branch master
 ```
 <!-- .element: class="big-code" -->
 
 <br/>
 
 - Branch specific
-- Search pattern (default vX.Y.Z)
+- Custom pattern (default vX.Y.Z)
 <!-- .element: class="list-fragment" -->
 
 Notes: Get last git tag on selected branch follow the release pattern (default vX.Y.Z)
@@ -86,8 +91,8 @@ Notes: plugin to analyze commits with conventional-changelog (default `angular`)
 <br/>
 
 ```text
-Found git tag 1.360.0 associated with version 1.360.0 on branch master
-[...] Analyse commit stuff ⚙
+Found git tag 1.1.2 associated with version 1.2.0 on branch master
+[...] Analyse commit stuff
 Analysis of 2 commits complete: minor release
 [...]
 The next release version is 1.361.0
@@ -97,8 +102,15 @@ The next release version is 1.361.0
 ##==## 
 # Work in progress
 
+![center h-600](./assets/images/work-in-progress.jpeg)
+
 ##==##
 # Git Tag
+
+![center h-600](./assets/images/git_tag.png)
+
+
+
 
 ##==##
 # Github or Gitlab Release

@@ -1,99 +1,64 @@
 <!-- .slide: -->
-# Plugins lifecycle
-
-- Execute plugins
-  - commitAnalysers
-  - changelog
-  - ...
-  - github/gitlab
-  
-
-- Configuration file
-  - .releaserc file (YAML or JSON)
-
-
-##==##
-# Installation
-
-* Installation
-
-```
-npm install --save-dev semantic-release
-```
-
-<br/>
-
-⚠️ Don't forget to install semantic-release plugins
-
-```text
-@semantic-release/commit-analyzer         
-@semantic-release/release-notes-generator 
-@semantic-release/github                 
-...       
- ```              
-
-
-##==##
 # Implementation
-## Configuration
 
-* .releaserc file, written in YAML or JSON, with optional extensions: .yaml/.yml/.json/.js
+- Install semantic-release
+- Install plugins
+```yaml
+  @semantic-release/commit-analyzer         # Analyze commits
+  @semantic-release/release-notes-generator # Generate notes
+  @semantic-release/npm                     # Publish packages to NPM
+  @semantic-release/github                  # Publish a GitHub release ... and comment on released Pull Requests/Issues.
+  @semantic-release/gitlab                  # Publish to GitLab
+  @semantic-release/git                     # Commit release assets to the project's git repository.
+  @semantic-release/changelog               # Generate changelog
+  @semantic-release/exec                    # Execute custom shell commands (e.g. mvn release:prepare)
+```
+<!-- .element: class="list-fragment" -->
+
+##==##
+# Configuration
+## Node
+
+- .releaserc
 
 ```json
 {
-  "branches": ["+([0-9])?(.{+([0-9]),x}).x", "master", "next", "next-major", {"name": "beta", "prerelease": true}, {"name": "alpha", "prerelease": true}],
-  "tagFormat": "v${version}",
-  "dryRun": false,
-  "ci": true,
   "plugins": [
-    [ "@semantic-release/commit-analyzer", 
-      "@semantic-release/release-notes-generator",
-      "@semantic-release/npm",
-      "@semantic-release/github"]
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    ["@semantic-release/npm", {
+      "npmPublish": false
+    }],
+    "@semantic-release/changelog",
+    ["@semantic-release/git", {
+      "assets": ["CHANGELOG.md","package.json"],
+      "message": "chore(release): ${nextRelease.version} [skip ci]"
+    }],
+    "@semantic-release/github"
   ]
 }
 ```
 
-<br/><br/><br/>
-
-⚠️ No branch main in default configuration
-
-
 ##==##
-# Plugins
-## Lifecycle
+# Configuration
+## Maven
 
-Plugins will run in series, in the order defined, for each step if they implement it.
+- .releaserc
 
-* Steps :
-  * Verify conditions
-  * Analyze commits
-  * Verify release
-  * Generate notes
-  * Prepare
-  * Publish
-  * AddChannel
-  * Success
-  * Notify
-
-##==##
-<!-- .slide: class="with-code"-->
-# Plugins
-## List
-
-👉 [official-plugins](https://semantic-release.gitbook.io/semantic-release/extending/plugins-list#official-plugins)
-
-```yaml
-@semantic-release/commit-analyzer         # Analyze commits
-@semantic-release/release-notes-generator # Generate notes
-@semantic-release/npm                     # Publish packages to NPM
-@semantic-release/github                  # Publish a GitHub release ... and comment on released Pull Requests/Issues.
-@semantic-release/gitlab                  # Publish to GitLab
-@semantic-release/git                     # Commit release assets to the project's git repository.
-@semantic-release/changelog               # Generate changelog
-@semantic-release/exec                    # Execute custom shell commands (e.g. mvn release:prepare)
-...                                       # ...
+```json
+{
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    ["@semantic-release/exec", {
+      "prepareCmd": "./mvnw -q versions:set -DnewVersion=${nextRelease.version}"
+    }],
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/changelog",
+    ["@semantic-release/git", {
+      "assets": ["**\pom.xml", "CHANGELOG.md"],
+      "message": "chore(release): ${nextRelease.version}\n\n${nextRelease.notes}"
+    }],
+    "@semantic-release/github"
+  ]
+}
 ```
-<!-- .element: class="big-code" -->
-
-👉 [community-plugins](https://semantic-release.gitbook.io/semantic-release/extending/plugins-list#community-plugins)

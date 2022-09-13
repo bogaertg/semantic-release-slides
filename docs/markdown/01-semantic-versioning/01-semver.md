@@ -3,21 +3,28 @@
 
 > **MAJOR.MINOR.PATCH**
 
-Ex: 6.4.5
+<br/>
+
+- Examples:
+  - 1.0.0, 1.0.6, 1.2.5
+  - 2.1.0, 2.4.8
+  - 3.9.1
 
 
 ##==## 
-# [Semantic Versioning](https://semver.org)
-## MAJOR.MINOR.PATCH
+<!-- .slide: -->
 
-<br><br><br>
+# MAJOR.MINOR.PATCH
 
-- 1.0.**1** ~> 1.0.**2** 
-- 🏖️ you **can** read release notes
+<br/>
+  
+- 1.0.**1** ~> 1.0.**2**
+  - 🏖️ you **can** read release notes
 - 1.**1**.0 ~> 1.**2**.0
-- 👀 you **should** read release notes
+  - 👀 you **should** read release notes
 - **1**.0.0 ~> **2**.0.0
-- ⚠️ you **must** read release notes
+  - ⚠️ you **must** read release notes
+- Always read release notes
 <!-- .element: class="list-fragment" -->
 
 Notes: 

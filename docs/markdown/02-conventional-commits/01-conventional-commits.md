@@ -1,7 +1,7 @@
 <!-- .slide: class="with-code"-->
 # [Conventional Commits](https://www.conventionalcommits.org/)
 
-<br><br><br>
+<br/>
 
 ```
 <type>(optional scope): <description>
@@ -21,27 +21,24 @@ Notes: Une spécification pour ajouter du sens aux messages de commit.
 <!-- .slide: class="with-code"-->
 # Types
 
-[//]: # (<br><br><br>)
-
-- Fix
-```
+- fix
+```text
 fix: add extra header
 ```
 <!-- .element: class="big-code" -->
 
-- Feature
-```
+- feature
+```text
 feat(api): send an email to the customer when a product is shipped
 ```
 <!-- .element: class="big-code" -->
 
-- Breaking change
-```
+- breaking change
+```text
 chore: drop support for Node 6
 BREAKING CHANGE: use JavaScript features not available in Node 6.
 ```
 <!-- .element: class="list-fragment big-code" -->
-
 
 Notes: un commit de type fix corrige un bug dans votre code
 
@@ -50,21 +47,20 @@ Notes: un commit de type fix corrige un bug dans votre code
 # Other types
 
 - ci
-```
+```text
 ci: move to github actions
 ```
 <!-- .element: class="big-code" -->
 
 - style
-```
+```text
 style: use dracula theme
 ```
 <!-- .element: class="big-code" -->
 
 - refactor
-```
+```text
 refactor: use a better way to do it
-
 ```
 <!-- .element: class="big-code list-fragment" -->
 
