@@ -1,11 +1,16 @@
 <!-- .slide: -->
-# Implementation
+# Plugins lifecycle
+
+- Execute plugins
+  - commitAnalysers
+  - changelog
+  - ...
+  - github/gitlab
+  
 
 - Configuration file
   - .releaserc file (YAML or JSON)
-- Execute plugins 
-  - commitAnalysers
-  - 
+
 
 ##==##
 # Installation
