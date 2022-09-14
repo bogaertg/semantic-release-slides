@@ -1,46 +1,67 @@
-<!-- .slide: -->
-# Conventional Commits
+<!-- .slide: class="with-code"-->
+# [Conventional Commits](https://www.conventionalcommits.org/)
 
-## A specification for adding human and machine readable meaning to commit messages.
+<br/>
 
 ```
-<type>[optional scope]: <description>
+<type>(optional scope): <description>
 
 [optional body]
 
 [optional footer(s)]
 ```
+<!-- .element: class="big-code" -->
 
 <br/>
 
-* *fix:* a commit of the type fix patches a bug in your codebase 
-* *feat:* a commit of the type feat introduces a new feature to the codebase .
-* a commit that has a footer *BREAKING CHANGE:*, introduces a breaking API change. can be part of commits of any type.
-* other types :
-  * build, chore, ci, docs, style, refactor, perf, test
-
-<br/><br/>
-
-Specification available here : 👉  [conventionalcommits.org](https://www.conventionalcommits.org/)
+Notes: Une spécification pour ajouter du sens aux messages de commit.
 
 ##==##
-<!-- .slide: -->  
 
-# Examples
+<!-- .slide: class="with-code"-->
+# Types
 
-Simple commit message
+- fix
+```text
+fix: add extra header
 ```
-feat: allow provided config object to extend other configs
-```
+<!-- .element: class="big-code" -->
 
-Commit message with scope
-```
+- feature
+```text
 feat(api): send an email to the customer when a product is shipped
 ```
+<!-- .element: class="big-code" -->
 
-Commit message with breaking change 
-```
+- breaking change
+```text
 chore: drop support for Node 6
-
 BREAKING CHANGE: use JavaScript features not available in Node 6.
 ```
+<!-- .element: class="list-fragment big-code" -->
+
+Notes: un commit de type fix corrige un bug dans votre code
+
+##==##
+<!-- .slide: class="with-code"-->
+# Other types
+
+- ci
+```text
+ci: move to github actions
+```
+<!-- .element: class="big-code" -->
+
+- style
+```text
+style: use dracula theme
+```
+<!-- .element: class="big-code" -->
+
+- refactor
+```text
+refactor: use a better way to do it
+```
+<!-- .element: class="big-code list-fragment" -->
+
+Notes: Il y a d'autres types de commit, comme build, chore, ci, docs, style, refactor, perf, test qui n'impacte pas le code.

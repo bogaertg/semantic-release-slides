@@ -1,9 +1,12 @@
+import { SfeirThemeInitializer } from '../web_modules/sfeir-school-theme/sfeir-school-theme.mjs';
+
+
 // One method per module
 function schoolSlides() {
   return ['00-school/00-TITLE.md',
-         // '00-school/01-speaker-ameausoone.md',
+          '00-school/01-speaker-ameausoone.md',
           '00-school/01-speaker-gbogaert.md',
-          '00-school/02-TOC.md',
+          //'00-school/02-TOC.md',
           '00-school/03-Intro.md'
          ];
 }
@@ -52,6 +55,8 @@ function formation() {
   });
 }
 
-export function usedSlides() {
-  return formation();
-}
+// export function usedSlides() {
+//   return formation();
+// }
+
+SfeirThemeInitializer.init(formation);

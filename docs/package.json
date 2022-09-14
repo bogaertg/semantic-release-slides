@@ -2,19 +2,6 @@
   "name": "sfeir-share-semantic-release",
   "version": "1.0.0",
   "description": "Sfeir Share Semantic Release",
-  "scripts": {
-    "sass": "node-sass ./scss/slides.scss -o ./css/ --source-map=true --watch=\"scss\" --recursive=\"scss\"",
-    "sass-once": "node-sass ./scss/slides.scss -o ./css/ --source-map=true ",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "live-server --port=4242 --open=\"./index.html\" --watch=\"markdown,scripts/\"",
-    "start": "parallelshell \"npm run serve\" \"npm run sass\"",
-    "prepare": "rm -rf web_modules && parallelshell \"npm run copy-modules\"",
-    "copy-highlight": "cpx \"node_modules/highlight.js/**/*\" \"web_modules/highlight.js\" ",
-    "copy-reveal": "cpx \"node_modules/reveal.js/**/*\" \"web_modules/reveal.js\" ",
-    "copy-theme": "cpx \"node_modules/sfeir-school-theme/**/*\" \"web_modules/sfeir-school-theme\" ",
-    "copy-lit": "cpx \"node_modules/lit-html/**/*\" \"web_modules/lit-html\" ",
-    "copy-modules": "parallelshell \"npm run copy-reveal\" \"npm run copy-theme\" \"npm run copy-lit\" \"npm run copy-highlight\" "
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bogaertg/sfeir-share-semantic-release.git"
@@ -29,24 +16,22 @@
     "url": "https://github.com/bogaertg/sfeir-share-semantic-release/issues"
   },
   "homepage": "https://github.com/bogaertg/sfeir-share-semantic-release",
+  "scripts": {
+    "sass": "sass ./scss/slides.scss:./css/slides.css --source-map --watch",
+    "sass-once": "sass ./scss/slides.scss:./css/slides.css --source-map",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "live-server --port=4242 --open=\"./index.html\" --watch=\"markdown,scripts/\"",
+    "start": "parallelshell \"npm run serve\" \"npm run sass\"",
+    "prepare": "node ./scripts/dont-touch/prepare-script.js"
+  },
   "dependencies": {
-    "highlight.js": "^9.15.6",
-    "lit-html": "^1.3.0",
-    "reveal.js": "^3.9.2",
-    "sfeir-school-theme": "^2.2.0"
+    "sfeir-school-theme": "^3.0.0-rc-1"
   },
   "devDependencies": {
-    "chokidar-cli": "^1.2.2",
+    "chokidar-cli": "^3.0.0",
     "live-server": "^1.2.1",
-    "node-sass": "^4.12.0",
+    "sass": "^1.51.0",
     "parallelshell": "3.0.1",
-    "snowpack": "^1.6.0"
-  },
-  "snowpack": {
-    "webDependencies": [
-      "sfeir-school-theme/dist/**/*",
-      "lit-html",
-      "highlight.js/styles/**/*"
-    ]
+    "shelljs": "^0.8.5"
   }
 }

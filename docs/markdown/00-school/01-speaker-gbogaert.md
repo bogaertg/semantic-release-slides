@@ -1,6 +1,6 @@
 <!-- .slide: class="speaker-slide" -->
 
-# Présentation
+# /me
 
 ![speaker](./assets/images/gb.jpg)
 ![company](./assets/images/logo-SFEIR-blanc.png)
