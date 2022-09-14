@@ -4,7 +4,7 @@
 
 - Install semantic-release
 - Install plugins
-```yaml
+```yaml [1|2|3|4|5|6|7|8]
   @semantic-release/commit-analyzer         # Analyze commits
   @semantic-release/release-notes-generator # Generate notes
   @semantic-release/npm                     # Publish packages to NPM
@@ -14,7 +14,7 @@
   @semantic-release/changelog               # Generate changelog
   @semantic-release/exec                    # Execute custom commands 
 ```
-<!-- .element: class="big-code list-fragment" -->
+<!-- .element: class="list-fragment" -->
 
 ##==##
 <!-- .slide: class="with-code"-->

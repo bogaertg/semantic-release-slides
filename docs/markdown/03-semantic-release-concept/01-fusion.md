@@ -41,6 +41,9 @@ La dernière version est la 19.0.5
 ##==##
 
 # How it works
+
+![center h-800](./assets/images/how_it_works.png)
+
   
 ##==##
 
@@ -91,11 +94,11 @@ Notes: plugin to analyze commits with conventional-changelog (default `angular`)
 <br/>
 
 ```text [1|3|5]
-Found git tag 1.1.2 associated with version 1.2.0 on branch master
+Found git tag 1.2.0 associated with version 1.2.0 on branch master
 [...] Analyse commit stuff
 Analysis of 2 commits complete: minor release
 [...]
-The next release version is 1.361.0
+The next release version is 1.3.0
 ```
 <!-- .element: class="big-code" -->
 
@@ -115,12 +118,16 @@ The next release version is 1.361.0
 ##==##
 # Github or Gitlab Release
 
-![center h-800](./assets/images/github_release.png)
+![center h-600](./assets/images/github_release.png)
 
 ##==##
 
 # Changelog
 
+![center h-600](./assets/images/changelog.png)
+
+
 ##==##
 # Pull request decoration
 
+![center h-600](./assets/images/pull_request_decoration.png)
