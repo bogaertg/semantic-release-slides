@@ -3,7 +3,7 @@
 # Implementation
 
 - Install semantic-release
-- Install plugins
+- Install necessary plugins
 ```yaml [1|2|3|4|5|6|7|8]
   @semantic-release/commit-analyzer         # Analyze commits
   @semantic-release/release-notes-generator # Generate notes
@@ -15,6 +15,8 @@
   @semantic-release/exec                    # Execute custom commands 
 ```
 <!-- .element: class="list-fragment" -->
+
+Notes: @Gaetan
 
 ##==##
 <!-- .slide: class="with-code"-->
@@ -41,6 +43,9 @@
 }
 ```
 
+Notes: @Gaetan
+
+
 ##==##
 # Configuration
 ## Maven
@@ -65,3 +70,6 @@
   ]
 }
 ```
+
+Notes: @Gaetan
+

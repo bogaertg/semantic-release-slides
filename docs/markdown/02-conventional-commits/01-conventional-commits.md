@@ -14,7 +14,8 @@
 
 <br/>
 
-Notes: Une spécification pour ajouter du sens aux messages de commit.
+Notes: @gaetan
+Une spécification pour ajouter du sens aux messages de commit.
 
 ##==##
 
@@ -40,7 +41,8 @@ BREAKING CHANGE: use JavaScript features not available in Node 6.
 ```
 <!-- .element: class="list-fragment big-code" -->
 
-Notes: un commit de type fix corrige un bug dans votre code
+Notes: @gaetan
+un commit de type fix corrige un bug dans votre code
 
 ##==##
 <!-- .slide: class="with-code"-->
@@ -64,4 +66,5 @@ refactor: use a better way to do it
 ```
 <!-- .element: class="big-code list-fragment" -->
 
-Notes: Il y a d'autres types de commit, comme build, chore, ci, docs, style, refactor, perf, test qui n'impacte pas le code.
+Notes: @gaetan
+Il y a d'autres types de commit, comme build, chore, ci, docs, style, refactor, perf, test qui n'impacte pas le code.

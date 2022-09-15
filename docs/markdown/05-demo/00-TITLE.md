@@ -1,6 +1,9 @@
 <!-- .slide: class="transition bg-pink" -->
 # Demo
 
+Notes: @Gaetan
+
+
 ##==##
 # To go further
 ## CI/CD
@@ -35,6 +38,8 @@ or
 - uses: rlespinasse/release-that@v1
 ```
 
+Notes: @Antoine
+
 ##==##
 # To go further
 ## Tools
@@ -49,3 +54,6 @@ or
 * Keep your library up to date
   * Dependabot
   * Renovate
+
+Notes: @Antoine
+

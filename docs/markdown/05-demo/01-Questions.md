@@ -9,6 +9,8 @@
 * Support **any** package managers and languages via plugins
 * Use formalized commit message convention to **document** changes in the codebase
 
+Notes: @Antoine
+
 ##==##
 # Slide 
 ## URL
@@ -18,3 +20,5 @@
 ##==##
 <!-- .slide: class="transition bg-pink" -->
 # Questions
+
+Notes: @Antoine

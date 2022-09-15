@@ -1,9 +1,15 @@
-<!-- .slide: -->
+<!-- .slide: class="quote-slide" -->
 # Release
 
-> A release is a change or set of changes that is created to be delivered
+<blockquote>
+<cite>
+  A release is a change or set of changes that is created to be delivered
+</cite>
+</blockquote>
 
-Notes: Une release est un ensemble de changements qui ont vocation à être livré en production.
+Notes: @gaetan
+Une release est un ensemble de changements qui ont vocation à être livré en production.
+
 
 ##==##
 # 💪 Release process
@@ -13,13 +19,15 @@ Notes: Une release est un ensemble de changements qui ont vocation à être livr
   - version maven plugin
   - npm version | lerna 
   - bumpver 
-- A lot of communication
+- A lot of communication => meaningless versioning
 <!-- .element: class="list-fragment" -->
 
 
-Notes: Le processus de release d'une version peut parfois être complexe.
+Notes: @gaetan
+Le processus de release d'une version peut parfois être complexe.
 Ca n'est pas toujours le même process selon la techno et les équipes.
 Si la version que vous produisez ne porte pas de sens, il est difficile de communiquer sur les changements.
+
 
 ##==##
 
@@ -35,7 +43,8 @@ Si la version que vous produisez ne porte pas de sens, il est difficile de commu
 - Windows
 <!-- .element: class="list-fragment" -->
 
-Notes: Il y a toute sortes de conventions de nommage de version.
+Notes: @gaetan
+Il y a toute sortes de conventions de nommage de version.
 Par exemple, basé sur les années.
 Ou plus original comme pour Tex, qui utilise la valeur de π.
 Et pour Windows, est-ce qu'on va vraiment parler de Windows ? 
