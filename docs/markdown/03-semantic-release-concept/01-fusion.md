@@ -52,11 +52,10 @@ Notes: @antoine
 ##==##
 
 # Get last tag
+
 <!-- .slide: class="with-code"-->
 
 <br/>
-
-Notes: @Antoine
 
 ```text
 Found git tag 1.1.2 associated with version 1.1.2 on branch master
