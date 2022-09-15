@@ -15,7 +15,9 @@
 <br/>
 
 Notes: @gaetan
-Une spécification pour ajouter du sens aux messages de commit.
+* conventional commits : c'est une spécification pour ajouter du sens aux messages de commit.
+
+* Transition: On va détailler ça
 
 ##==##
 
@@ -42,7 +44,12 @@ BREAKING CHANGE: use JavaScript features not available in Node 6.
 <!-- .element: class="list-fragment big-code" -->
 
 Notes: @gaetan
-un commit de type fix corrige un bug dans votre code
+* un commit de type fix corrige un bug dans votre code
+* un commit de type feature ajoute une nouvelle fonctionnalité
+* un commit de type breaking change indique que votre code n'est plus compatible avec une version précédente
+* un commit de type chore est un commit qui n'entre pas dans les catégories précédentes
+
+* Transition: Il y a également d'autres types de commits
 
 ##==##
 <!-- .slide: class="with-code"-->
@@ -67,4 +74,6 @@ refactor: use a better way to do it
 <!-- .element: class="big-code list-fragment" -->
 
 Notes: @gaetan
-Il y a d'autres types de commit, comme build, chore, ci, docs, style, refactor, perf, test qui n'impacte pas le code.
+* Il y a d'autres types de commit, comme build, chore, ci, docs, style, refactor, perf, test qui n'impacte pas le code.
+
+* Transition: @antoine Et maintenant on va voir comment mixer les 2

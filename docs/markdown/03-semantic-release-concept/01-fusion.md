@@ -15,14 +15,18 @@
 </cite>
 </blockquote>
 
+Notes:@antoine
+* Semantic release est un outil qui permet de gérer automatiquement la version de vos packages
+* en se basant sur les normes semantic versioning et conventionnal commit
 
-Notes: @antoine
+* Transition: en détail...
+
 ##==##
 # [Semantic Release](https://github.com/semantic-release/semantic-release)
 
 ![float-right h-600](./assets/images/bender.png)
 
-- Open source 
+- Open source
 - Written in javascript
 - 16.3k ⭐️ 
 - Used by 62.9k 
@@ -33,21 +37,15 @@ Notes: @antoine
 <!-- .element: class="list-fragment" -->
 
 Notes: @antoine
-C'est un projet opensource
-C'est écrit en javascript
-Il a 16.3k ⭐️ sur Github
-Il est utilisé par 62.9k projets
-Il a 187 contributeurs
-Il a été créé en 2014
-La dernière version est la 19.0.5
+* C'est un projet opensource hébergé sur github
+* C'est écrit en javascript
+* Il a 16.3k ⭐️ sur Github
+* Il est utilisé par 62.9k projets
+* Il a 187 contributeurs
+* Il a été créé en 2014
+* La dernière version est la 19.0.5
 
-##==##
-
-# How it works
-
-![center h-800](./assets/images/how_it_works.png)
-
-Notes: @antoine
+* Transition: Alors... comment ça marche ?
   
 ##==##
 

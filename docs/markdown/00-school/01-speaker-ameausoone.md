@@ -13,5 +13,10 @@
 ### @ameausoone
 <!-- .element: class="icon-twitter icon-second" -->
 
-Notes: Je m'appelle Antoine Méausoone, je suis Architecte Cloud chez Sfeir. J'ai un background de développeur Back, puis naturellement passé au DevOps, et au Cloud. ...Au niveau de mon expérience, sur les outils de CICD.
-@antoine
+Notes: @antoine
+* Je me présente je suis Antoine Méausoone
+* Je suis Architect Cloud chez Sfeir
+* J'ai une forte appétence pour l'automatisation et les technologies Cloud
+
+* Je vais laisser Gaëtan se présenter
+* Transition @Gaetan

@@ -44,7 +44,9 @@ Si la version que vous produisez ne porte pas de sens, il est difficile de commu
 <!-- .element: class="list-fragment" -->
 
 Notes: @gaetan
-Il y a toute sortes de conventions de nommage de version.
-Par exemple, basé sur les années.
-Ou plus original comme pour Tex, qui utilise la valeur de π.
-Et pour Windows, est-ce qu'on va vraiment parler de Windows ? 
+* Il y a toute sortes de conventions de nommage de version.
+* Par exemple, basé sur les années, calver
+* Ou plus original comme pour Tex, qui utilise la valeur de π.
+* Et pour Windows,  (@antoine) Non, on avait dit qu'on ne parlerait pas de Windows.
+
+* Transition @antoine

@@ -5,3 +5,5 @@
 ## **Donnez du sens à vos commits**
 
 Notes: @antoine
+* Bonjour bienvenue à notre présentation sur Semantic Release
+* Nous allons voir comment donner du sens à vos commits
