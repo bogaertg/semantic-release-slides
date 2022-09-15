@@ -3,3 +3,5 @@
 # **Semantic Release**
 
 ## **Donnez du sens à vos commits**
+
+Notes: @antoine

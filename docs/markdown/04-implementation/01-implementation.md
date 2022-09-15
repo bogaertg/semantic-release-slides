@@ -16,6 +16,8 @@
 ```
 <!-- .element: class="list-fragment" -->
 
+Notes: @Gaetan
+
 ##==##
 <!-- .slide: class="with-code"-->
 # Configuration
@@ -41,6 +43,9 @@
 }
 ```
 
+Notes: @Gaetan
+
+
 ##==##
 # Configuration
 ## Maven
@@ -65,3 +70,6 @@
   ]
 }
 ```
+
+Notes: @Gaetan
+

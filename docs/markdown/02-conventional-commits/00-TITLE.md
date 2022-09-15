@@ -2,5 +2,6 @@
 
 # Conventional commits
 
-Notes: Sondage : Qui a déjà pesté sur un commit nommé "fix it" ?
+Notes: @gaetan
+Sondage : Qui a déjà pesté sur un commit nommé "fix it" ?
 

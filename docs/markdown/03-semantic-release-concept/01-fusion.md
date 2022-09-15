@@ -5,10 +5,18 @@
 ![center](./assets/images/fusion.png)
 
 ##==##
+<!-- .slide: class="quote-slide" -->
+
 # Goal
 
-> 📦🚀 Fully automated version management and package publishing
+<blockquote>
+<cite>
+  📦🚀 Fully automated version management and package publishing
+</cite>
+</blockquote>
 
+
+Notes: @antoine
 ##==##
 # [Semantic Release](https://github.com/semantic-release/semantic-release)
 
@@ -21,10 +29,12 @@
 - Contributors 187
 - 2014 
 - v19.0.5
+- Targets: npm, maven, terraform, python, ... 
 
 [//]: # (<!-- .element: class="list-fragment" -->)
 
-Notes: C'est un projet opensource
+Notes: @antoine
+C'est un projet opensource
 C'est écrit en javascript
 Il a 16.3k ⭐️ sur Github
 Il est utilisé par 62.9k projets
@@ -32,11 +42,13 @@ Il a 187 contributeurs
 Il a été créé en 2014
 La dernière version est la 19.0.5
 
-##==##
+[//]: # (##==##)
 
-# How it works
+[//]: # ()
+[//]: # (# How it works)
 
-![center h-600](./assets/images/howdoesitwork.png)
+[//]: # ()
+[//]: # (![center h-600]&#40;./assets/images/howdoesitwork.png&#41;)
 
 ##==##
 
@@ -44,6 +56,7 @@ La dernière version est la 19.0.5
 
 ![center h-800](./assets/images/how_it_works.png)
 
+Notes: @antoine
   
 ##==##
 
@@ -51,6 +64,8 @@ La dernière version est la 19.0.5
 <!-- .slide: class="with-code"-->
 
 <br/>
+
+Notes: @Antoine
 
 ```text
 Found git tag 1.1.2 associated with version 1.1.2 on branch master
@@ -63,7 +78,8 @@ Found git tag 1.1.2 associated with version 1.1.2 on branch master
 - Custom pattern (default vX.Y.Z)
 <!-- .element: class="list-fragment" -->
 
-Notes: Get last git tag on selected branch follow the release pattern (default vX.Y.Z)
+Notes: @Antoine
+Get last git tag on selected branch follow the release pattern (default vX.Y.Z)
 
 ##==##
 <!-- .slide: class="with-code"-->
@@ -84,7 +100,8 @@ Notes: Get last git tag on selected branch follow the release pattern (default v
 ```
 <!-- .element: class="big-code" -->
 
-Notes: plugin to analyze commits with conventional-changelog (default `angular`) and determine the next semantic version release type (major, minor or patch)
+Notes: @Antoine
+plugin to analyze commits with conventional-changelog (default `angular`) and determine the next semantic version release type (major, minor or patch)
 
 ##==##
 <!-- .slide: class="with-code"-->
@@ -102,23 +119,27 @@ The next release version is 1.3.0
 ```
 <!-- .element: class="big-code" -->
 
+Notes: @Antoine
 ##==## 
 # Work in progress
 
 ![center h-600](./assets/images/work-in-progress.jpeg)
 
+Notes: @Antoine
 ##==##
 # Git Tag
 
 ![center h-600](./assets/images/git_tag.png)
 
 
-
+Notes: @Antoine
 
 ##==##
 # Github or Gitlab Release
 
 ![center h-600](./assets/images/github_release.png)
+
+Notes: @Antoine
 
 ##==##
 
@@ -126,8 +147,11 @@ The next release version is 1.3.0
 
 ![center h-600](./assets/images/changelog.png)
 
+Notes: @Antoine
 
 ##==##
 # Pull request decoration
 
 ![center h-600](./assets/images/pull_request_decoration.png)
+
+Notes: @Antoine

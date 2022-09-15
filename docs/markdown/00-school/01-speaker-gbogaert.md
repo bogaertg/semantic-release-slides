@@ -1,11 +1,12 @@
 <!-- .slide: class="speaker-slide" -->
 
-# /me
+# 👋
 
 ![speaker](./assets/images/gb.jpg)
 ![company](./assets/images/logo-SFEIR-blanc.png)
-![badge first-badge](./assets/images/ckad_badge.png)
-![badge second-badge](./assets/images/Terraform-Associate-Badge-transp.png)
+
+[//]: # (![badge first-badge]&#40;./assets/images/ckad_badge.png&#41;)
+[//]: # (![badge second-badge]&#40;./assets/images/Terraform-Associate-Badge-transp.png&#41;)
 
 <h2>Gaetan <span>BOGAERT</span></h2>
 
@@ -17,4 +18,4 @@
 
 Notes:
 
-Gaetan
+@Gaetan
