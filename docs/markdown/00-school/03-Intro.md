@@ -1,7 +1,11 @@
-<!-- .slide: -->
+<!-- .slide: class="quote-slide" -->
 # Release
 
-> A release is a change or set of changes that is created to be delivered
+<blockquote>
+<cite>
+  A release is a change or set of changes that is created to be delivered
+</cite>
+</blockquote>
 
 Notes: Une release est un ensemble de changements qui ont vocation à être livré en production.
 
