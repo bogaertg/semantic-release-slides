@@ -30,8 +30,7 @@ Notes: @antoine
 - 2014 
 - v19.0.5
 - Targets: npm, maven, terraform, python, ... 
-
-[//]: # (<!-- .element: class="list-fragment" -->)
+<!-- .element: class="list-fragment" -->
 
 Notes: @antoine
 C'est un projet opensource
@@ -41,14 +40,6 @@ Il est utilisé par 62.9k projets
 Il a 187 contributeurs
 Il a été créé en 2014
 La dernière version est la 19.0.5
-
-[//]: # (##==##)
-
-[//]: # ()
-[//]: # (# How it works)
-
-[//]: # ()
-[//]: # (![center h-600]&#40;./assets/images/howdoesitwork.png&#41;)
 
 ##==##
 
