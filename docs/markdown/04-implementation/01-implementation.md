@@ -3,7 +3,7 @@
 # Implementation
 
 - Install semantic-release
-- Install plugins
+- Install necessary plugins
 ```yaml [1|2|3|4|5|6|7|8]
   @semantic-release/commit-analyzer         # Analyze commits
   @semantic-release/release-notes-generator # Generate notes

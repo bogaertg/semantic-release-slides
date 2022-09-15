@@ -17,7 +17,7 @@ Notes: Une release est un ensemble de changements qui ont vocation à être livr
   - version maven plugin
   - npm version | lerna 
   - bumpver 
-- A lot of communication
+- A lot of communication => meaningless versioning
 <!-- .element: class="list-fragment" -->
 
 
