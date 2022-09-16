@@ -2,6 +2,9 @@
 # Demo
 
 Notes: @Gaetan
+* On va maintenant voir comment ça fonctionne en pratique
+
+* Transition: @antoine
 
 
 ##==##
@@ -39,6 +42,9 @@ or
 ```
 
 Notes: @Antoine
+* Il est fortement recommandé d'intégrer semantic release dans votre CI/CD
+* Ici un exemple avec une Github Action
+* Vous pouvez aussi utiliser un outil comme release-that qui va gérer la release pour vous sans fichier de configuration.
 
 ##==##
 # To go further
@@ -56,4 +62,8 @@ Notes: @Antoine
   * Renovate
 
 Notes: @Antoine
+* commitlint va vous permettre de vérifier que vos commits respectent le pattern de commit
+* commitizen va vous permettre de générer vos commits en suivant le pattern de commit
+* dependabot va vous permettre de mettre à jour vos dépendances automatiquement
+* renovate va vous permettre de mettre à jour vos dépendances automatiquement
 

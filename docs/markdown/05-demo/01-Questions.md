@@ -10,6 +10,11 @@
 * Use formalized commit message convention to **document** changes in the codebase
 
 Notes: @Antoine
+* Vous avez une release complètement automatisée
+* Vous pouvez notifier les utilisateurs et les mainteneurs de nouvelles releases
+* C'est intégré à votre workflow de CI/CD
+* Vous pouvez utiliser n'importe quel package manager et n'importe quelle langue via des plugins
+* Vous pouvez utiliser une convention de commit pour documenter les changements dans le code
 
 ##==##
 # Slide 
@@ -22,3 +27,11 @@ Notes: @Antoine
 # Questions
 
 Notes: @Antoine
+* Questions ?
+
+##==##
+<!-- .slide: class="transition bg-pink" -->
+# Merci
+
+Notes: @Antoine
+* Merci pour votre attention

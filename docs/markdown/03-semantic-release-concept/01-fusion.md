@@ -67,11 +67,10 @@ Found git tag 1.1.2 associated with version 1.1.2 on branch master
 <!-- .element: class="list-fragment" -->
 
 Notes: @Antoine
-Get last git tag on selected branch follow the release pattern (default vX.Y.Z)
+semantic release va rechercher le dernier tag git sur la branche sélectionnée en suivant le pattern de release (par défaut vX.Y.Z)
 
 ##==##
 <!-- .slide: class="with-code"-->
-
 
 # [Analyse commit](https://github.com/semantic-release/commit-analyzer)
 
@@ -89,7 +88,8 @@ Get last git tag on selected branch follow the release pattern (default vX.Y.Z)
 <!-- .element: class="big-code" -->
 
 Notes: @Antoine
-plugin to analyze commits with conventional-changelog (default `angular`) and determine the next semantic version release type (major, minor or patch)
+* analyse commit va analyser les commits avec conventional-changelog (par défaut angular) 
+* et déterminer le type de release (major, minor ou patch)
 
 ##==##
 <!-- .slide: class="with-code"-->
@@ -108,12 +108,16 @@ The next release version is 1.3.0
 <!-- .element: class="big-code" -->
 
 Notes: @Antoine
+* semantic release va ensuite déterminer la prochaine version en fonction du type de release
+
 ##==## 
 # Work in progress
 
 ![center h-600](./assets/images/work-in-progress.jpeg)
 
 Notes: @Antoine
+* semantic release va ensuite produire un changelog et un tag git
+
 ##==##
 # Git Tag
 
@@ -121,6 +125,7 @@ Notes: @Antoine
 
 
 Notes: @Antoine
+* donc on retrouve un tag git avec la version
 
 ##==##
 # Github or Gitlab Release
@@ -128,6 +133,7 @@ Notes: @Antoine
 ![center h-600](./assets/images/github_release.png)
 
 Notes: @Antoine
+* et une release avec la release note  github ou gitlab
 
 ##==##
 
@@ -136,6 +142,7 @@ Notes: @Antoine
 ![center h-600](./assets/images/changelog.png)
 
 Notes: @Antoine
+* et un changelog intégré dans la projet
 
 ##==##
 # Pull request decoration
@@ -143,3 +150,6 @@ Notes: @Antoine
 ![center h-600](./assets/images/pull_request_decoration.png)
 
 Notes: @Antoine
+* et semantic release va mettre à jour la pull request avec les informations de la release
+
+* Transition @gaetan
