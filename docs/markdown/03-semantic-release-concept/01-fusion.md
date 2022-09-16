@@ -151,4 +151,4 @@ Notes: @Antoine
 Notes: @Antoine
 * et semantic release va mettre à jour la pull request avec les informations de la release
 
-* Transition @gaetan
+Transition : @gaetan

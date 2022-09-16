@@ -19,4 +19,5 @@ Notes: @antoine
 * J'ai une forte appétence pour l'automatisation et les technologies Cloud
 
 * Je vais laisser Gaëtan se présenter
-* Transition @Gaetan
+
+Transition @Gaetan
