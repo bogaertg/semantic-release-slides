@@ -5,4 +5,4 @@
 Notes: @gaetan
 * (main levé) Qui a déjà pesté sur un commit nommé "fix it" ?
 
-* Transition: On va voir comment donner du sens à vos commits
+Transition: On va voir comment donner du sens à vos commits

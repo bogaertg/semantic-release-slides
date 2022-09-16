@@ -123,7 +123,6 @@ Notes: @Antoine
 
 ![center h-600](./assets/images/git_tag.png)
 
-
 Notes: @Antoine
 * donc on retrouve un tag git avec la version
 

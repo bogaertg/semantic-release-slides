@@ -12,7 +12,9 @@
 
 Notes: @antoine
 * Juste une norme / Pour uniformiser les versions
-* Donnez du sens
+* Donnez du sens à vos versions
+
+
 
 ##==## 
 <!-- .slide: -->
@@ -39,7 +41,7 @@ Notes: @antoine
 * on va incrémenter la version MAJOR
 * Dans ce cas, vous devez lire la release notes avant de passer sur cette nouvelle version
 
-* Transition: quelques règles
+Transition: Cette norme contient quelques règles
 
 ##==##
 <!-- .slide: -->
@@ -53,9 +55,9 @@ Notes: @antoine
 <!-- .element: class="list-fragment" -->
 
 Notes: @antoine
-* La 1ère règle du semantic versioning est que vous ne devez pas modifier le contenu d'une version.
+* La 1ère règle du semantic versioning est que vous ne devez pas modifier le contenu d'une version releasé
 * (main levé) Qui a déjà force push un tag pour rajouter une toute petite modification et s'est pris les pieds dans le tapis ?
 * Ensuite toutes modifications doivent être publiées sous une nouvelle version.
 * Et enfin, vous pouvez ajouter un suffixe `-alpha`, `-rc` pour indiquer que vous publiez une pré-release.
 
-* Transition: @gaetan Et maintenant on va voir l'autre pendant de notre présentation, et voir conventional commits
+Transition: @gaetan Et maintenant on va voir l'autre pendant de notre présentation, et voir conventional commits

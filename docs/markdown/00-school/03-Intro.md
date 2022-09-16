@@ -8,7 +8,7 @@
 </blockquote>
 
 Notes: @gaetan
-Une release est un ensemble de changements qui ont vocation à être livré en production.
+* Une release est un ensemble de changement qui ont vocation à être livré en production.
 
 
 ##==##
@@ -24,10 +24,9 @@ Une release est un ensemble de changements qui ont vocation à être livré en p
 
 
 Notes: @gaetan
-Le processus de release d'une version peut parfois être complexe.
-Ca n'est pas toujours le même process selon la techno et les équipes.
-Si la version que vous produisez ne porte pas de sens, il est difficile de communiquer sur les changements.
-
+* Le processus de release d'une version peut parfois être complexe.
+* Ca n'est pas toujours le même process selon la techno et les équipes.
+* Si la version que vous produisez ne porte pas de sens, il est difficile de communiquer sur les changements.
 
 ##==##
 
@@ -49,4 +48,4 @@ Notes: @gaetan
 * Ou plus original comme pour Tex, qui utilise la valeur de π.
 * Et pour Windows,  (@antoine) Non, on avait dit qu'on ne parlerait pas de Windows.
 
-* Transition @antoine
+Transition @antoine
