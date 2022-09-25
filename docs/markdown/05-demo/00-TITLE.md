@@ -4,7 +4,26 @@
 Notes: @Gaetan
 * On va maintenant voir comment ça fonctionne en pratique
 
+##==##
+# Demo
+## Scenario 1
+
+![float-left h-500](./assets/images/demo_git_tree.png)
+
+* 2 commits
+  * feat(api): send an email to the customer ...
+  * fix: allow provided config object to ...
+* let's go magic 🦄
+<!-- .element: class="list-fragment" -->
+
+Notes: @Gaetan
 * Transition: @antoine
+
+##==##
+# Demo
+## Scenario 1
+
+<video style="padding:auto" height="600px" controls src="./assets/videos/demo1.mp4"></video>
 
 
 ##==##
@@ -26,7 +45,7 @@ semantic-release || npm run release
     semantic_version: 19.0.2
     extra_plugins: |
       @semantic-release/exec@6.0.3
-    branches: |    
+    branches: |
       [
         'main', 
       ]
@@ -35,7 +54,7 @@ semantic-release || npm run release
     GH_TOKEN: ...
 ```
 
-or 
+or
 
 ```yaml
 - uses: rlespinasse/release-that@v1
