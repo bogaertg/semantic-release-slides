@@ -1,15 +1,26 @@
-<!-- .slide: class="quote-slide" -->
-# Release
+<!-- .slide -->
+# 
 
-<blockquote>
-<cite>
-  A release is a change or set of changes that is created to be delivered
-</cite>
-</blockquote>
+* v3257 -> v3284 
+  * Pas de release notes ❓
+* Pas de changelog ❓
+* Code accessible sur Github 👍
+  * fix up
+  * new feature
+  * update core 
+* Deep dive in code 🤿
+<!-- .element: class="list-fragment" -->
 
-Notes: @gaetan
-* Une release est un ensemble de changement qui ont vocation à être livré en production.
+Notes: @Gaetan
 
+##==##
+
+<!-- .slide -->
+# Mise en situation
+
+![center h-600](./assets/images/hope.gif)
+
+Notes: @Gaetan
 
 ##==##
 # 💪 Release process

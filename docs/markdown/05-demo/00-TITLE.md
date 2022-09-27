@@ -8,16 +8,15 @@ Notes: @Gaetan
 # Demo
 ## Scenario 1
 
-![float-left h-500](./assets/images/demo_git_tree.png)
+![float-left h-500](./assets/images/demo_git_tree_1.png)
 
 * 2 commits
   * feat(api): send an email to the customer ...
   * fix: allow provided config object to ...
-* let's go magic 🦄
+* let the magic begin! 🪄
 <!-- .element: class="list-fragment" -->
 
 Notes: @Gaetan
-* Transition: @antoine
 
 ##==##
 # Demo
@@ -25,6 +24,28 @@ Notes: @Gaetan
 
 <video style="padding:auto" height="600px" controls src="./assets/videos/demo1.mp4"></video>
 
+##==##
+# Demo
+## Scenario 2
+
+![float-left h-500](./assets/images/demo_git_tree_2.png)
+
+* 2 actives versions
+  * v1.3.0
+  * v1.2.0
+* 1 commit
+  * fix: crash when customer name > 37 chars
+* let the magic begin! 🪄
+<!-- .element: class="list-fragment" -->
+
+Notes: @Gaetan
+* Transition: @antoine
+
+##==##
+# Demo
+## Scenario 2
+
+<video style="padding:auto" height="600px" controls src="./assets/videos/demo2.mp4"></video>
 
 ##==##
 # To go further
