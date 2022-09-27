@@ -1,5 +1,5 @@
 <!-- .slide -->
-# 
+# Your mission
 
 * v3257 -> v3284 
   * Pas de release notes ❓
@@ -16,7 +16,7 @@ Notes: @Gaetan
 ##==##
 
 <!-- .slide -->
-# Mise en situation
+# Your mission  
 
 ![center h-600](./assets/images/hope.gif)
 
