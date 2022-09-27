@@ -20,7 +20,7 @@ Notes: @Antoine
 # Slide 
 ## URL
 
-![float-center](./assets/images/qr_code.png)
+![float-center](./assets/images/qr-code.png)
 
 ##==##
 <!-- .slide: class="transition bg-pink" -->
