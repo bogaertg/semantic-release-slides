@@ -1,12 +1,9 @@
 # Slides
 
-👉 https://bogaertg.github.io/sfeir-share-semantic-release
+👉 https://bogaertg.github.io/cloudnord-2022-semantic-release/#/
 
 # Example repositories
 
 | Techno | URL |
 |--|--|
-| npm | https://github.com/bogaertg/semantic-release-npm-demo |
-| maven | https://github.com/bogaertg/semantic-release-maven-demo |
-| terraform | https://github.com/bogaertg/semantic-release-terraform-demo |
-| monorepo | https://github.com/bogaertg/semantic-release-monorepo-demo |
+| Demo (npm) | https://github.com/bogaertg/cloudnord-2022-semantic-release-demo/releases |
