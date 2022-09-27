@@ -5,9 +5,9 @@
   * Pas de release notes ❓
 * Pas de changelog ❓
 * Code accessible sur Github 👍
-  * fix up
-  * new feature
-  * update core 
+  * "fix up"
+  * "new feature"
+  * "update core"
 * Deep dive in code 🤿
 <!-- .element: class="list-fragment" -->
 
