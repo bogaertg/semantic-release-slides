@@ -14,7 +14,6 @@ Notes: @Gaetan
   * feat(api): send an email to the customer ...
   * fix: allow provided config object to ...
 * let the magic begin! 🪄
-<!-- .element: class="list-fragment" -->
 
 Notes: @Gaetan
 
@@ -33,10 +32,9 @@ Notes: @Gaetan
 * 2 actives versions
   * v1.3.0
   * v1.2.0
-* 1 commit
+* 1 "hotfix" commit
   * fix: crash when customer name > 37 chars
 * let the magic begin! 🪄
-<!-- .element: class="list-fragment" -->
 
 Notes: @Gaetan
 * Transition: @antoine
@@ -95,9 +93,8 @@ Notes: @Antoine
     * Lint your commits
   * commitizen
     * CLI to easily generate commit messages
-  * 👉 [other tools](https://www.conventionalcommits.org/en/about/#tooling-for-conventional-commits)
 
-* Keep your library up to date
+* Compatible with 
   * Dependabot
   * Renovate
 

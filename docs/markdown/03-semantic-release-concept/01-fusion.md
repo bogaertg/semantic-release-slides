@@ -56,7 +56,7 @@ Notes: @antoine
 <br/>
 
 ```text
-Found git tag 1.1.2 associated with version 1.1.2 on branch master
+Found git tag 1.2.0 associated with version 1.2.0 on branch master
 ```
 <!-- .element: class="big-code" -->
 

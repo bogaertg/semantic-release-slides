@@ -7,7 +7,9 @@
 * **Notify** maintainers and users of new releases
 * **Integrate** with your continuous integration workflow
 * Support **any** package managers and languages via plugins
+  * node, maven, python , terraform, ...
 * Use formalized commit message convention to **document** changes in the codebase
+* **monorepo** support bring by community plugin
 
 Notes: @Antoine
 * Vous avez une release complètement automatisée

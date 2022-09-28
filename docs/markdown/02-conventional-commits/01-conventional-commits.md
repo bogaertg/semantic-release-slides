@@ -4,7 +4,7 @@
 <br/>
 
 ```
-<type>(optional scope): <description>
+<type>: <description>
 
 [optional body]
 
@@ -26,7 +26,7 @@ Notes: @gaetan
 
 - fix
 ```text
-fix: add extra header
+fix: add missing HTTP header
 ```
 <!-- .element: class="big-code" -->
 
@@ -71,8 +71,9 @@ style: use dracula theme
 ```text
 refactor: use a better way to do it
 ```
-<!-- .element: class="big-code list-fragment" -->
+<!-- .element: class="big-code" -->
 
+- perf, test , ...
 Notes: @gaetan
 * Il y a d'autres types de commit, comme build, chore, ci, docs, style, refactor, perf, test qui n'impacte pas le code.
 

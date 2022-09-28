@@ -2,16 +2,22 @@
 # "Déjà vu"
 
 * v3257 -> v3284 
-  * Pas de release notes ❓
-* Pas de changelog ❓
+  * Pas de release notes 👎
+* Pas de changelog 👎
 * Code accessible sur Github 👍
   * "fix up"
   * "new feature"
   * "update core"
 * Deep dive in code 🤿
-<!-- .element: class="list-fragment" -->
 
 Notes: @Gaetan
+
+* Je vais vous raconter l'histoire
+* tout le monde concerné (dev, ops, )
+  * terraform
+  * lib node, plugin maven
+
+Editeur 
 
 ##==##
 
@@ -23,21 +29,27 @@ Notes: @Gaetan
 Notes: @Gaetan
 
 ##==##
-# 💪 Release process
+# Why ?
 
-- Painful and long process
-- Heterogeneous process/tools
+- Painful, manual and long process
+- Heterogeneous tools
   - version maven plugin
   - npm version | lerna 
   - bumpver 
-- A lot of communication => meaningless versioning
-<!-- .element: class="list-fragment" -->
-
+- Complex organization
+  - mono / multi repository
+  - workflow git
 
 Notes: @gaetan
-* Le processus de release d'une version peut parfois être complexe.
-* Ca n'est pas toujours le même process selon la techno et les équipes.
-* Si la version que vous produisez ne porte pas de sens, il est difficile de communiquer sur les changements.
+
+* process long, manual
+* Question métaphysique : 
+  * quels nom de version
+  * mono vs multirepo
+  * hotfix
+
+* Contribue a une version dénué de sens => 
+* 1er solution convention de nommage
 
 ##==##
 

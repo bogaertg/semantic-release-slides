@@ -4,7 +4,7 @@
 
 - Install semantic-release
 - Install necessary plugins
-```yaml [1|2|3|4|5|6|7|8]
+```yaml
   @semantic-release/commit-analyzer         # Analyze commits
   @semantic-release/release-notes-generator # Generate notes
   @semantic-release/npm                     # Publish packages to NPM
@@ -25,7 +25,7 @@ Notes: @Gaetan
 
 - .releaserc
 
-```json [|3|4|5-7|8|9-12|13]
+```json
 {
   "plugins": [
     "@semantic-release/commit-analyzer",
@@ -48,13 +48,14 @@ Notes: @Gaetan
 
 ##==##
 # Configuration
-## Maven
+## 
+Maven
 
 - .releaserc
 
-```json [|2|4|5-7|8|9|10-13|14]
+```json [2,5-7,10-13]
 {
-  "tagFormat": "v${version}",
+  "tagFormat": "myapp-${version}",
   "plugins": [
     "@semantic-release/commit-analyzer",
     ["@semantic-release/exec", {
