@@ -1,5 +1,5 @@
 <!-- .slide -->
-# "Déjà vu"
+# This is a story of ...
 
 * v3257 -> v3284 
   * Pas de release notes 👎
@@ -22,7 +22,7 @@ Editeur
 ##==##
 
 <!-- .slide -->
-# "Déjà vu"
+# Hope
 
 ![center h-600](./assets/images/hope.gif)
 
