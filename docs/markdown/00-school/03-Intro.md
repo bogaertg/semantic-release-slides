@@ -52,6 +52,11 @@ Notes: @gaetan
 * 1er solution convention de nommage
 
 ##==##
+<!-- .slide: class="transition bg-green" -->
+
+# How to give meaning to our release ?
+
+##==##
 
 # Convention naming
 
