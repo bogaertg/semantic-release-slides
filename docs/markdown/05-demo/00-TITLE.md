@@ -81,6 +81,7 @@ or
 
 Notes: @Antoine
 * Il est fortement recommandé d'intégrer semantic release dans votre CI/CD
+* On peut l'activer sur chaque commit ou en daily/weekly
 * Ici un exemple avec une Github Action
 * Vous pouvez aussi utiliser un outil comme release-that qui va gérer la release pour vous sans fichier de configuration.
 
@@ -99,8 +100,8 @@ Notes: @Antoine
   * Renovate
 
 Notes: @Antoine
-* commitlint va vous permettre de vérifier que vos commits respectent le pattern de commit
-* commitizen va vous permettre de générer vos commits en suivant le pattern de commit
-* dependabot va vous permettre de mettre à jour vos dépendances automatiquement
-* renovate va vous permettre de mettre à jour vos dépendances automatiquement
+* commitlint =>  vérifier que vos commits respectent le pattern de commit
+* commitizen =>  générer vos commits en suivant le pattern de commit
+* dependabot =>  MàJ vos dépendances automatiquement
+* renovate => mettre à jour vos dépendances automatiquement
 

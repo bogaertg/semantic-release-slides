@@ -3,4 +3,4 @@
 # Semantic Versioning
 
 Notes: @antoine
-* On va commencer par vous expliquer ce qu'est la norme semantic versioning
+* Commencer par expliquer ce qu'est la convention semantic versioning
