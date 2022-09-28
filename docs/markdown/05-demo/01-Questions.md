@@ -12,11 +12,11 @@
 * **monorepo** support bring by community plugin
 
 Notes: @Antoine
-* Vous avez une release complètement automatisée
-* Vous pouvez notifier les utilisateurs et les mainteneurs de nouvelles releases
-* C'est intégré à votre workflow de CI/CD
-* Vous pouvez utiliser n'importe quel package manager et n'importe quelle langue via des plugins
-* Vous pouvez utiliser une convention de commit pour documenter les changements dans le code
+* release complètement automatisée
+* notifier les utilisateurs et les mainteneurs de nouvelles releases
+* intégré workflow de CI/CD
+* utiliser n'importe quel package manager et n'importe quelle langue via des plugins
+* utiliser une convention de commit pour documenter les changements dans le code
 
 ##==##
 # Slide 

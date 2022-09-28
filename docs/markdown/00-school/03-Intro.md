@@ -4,7 +4,7 @@
 * v3257 -> v3284 
   * Pas de release notes 👎
 * Pas de changelog 👎
-* Code accessible sur Github 👍
+* Code accessible 👍
   * "fix up"
   * "new feature"
   * "update core"

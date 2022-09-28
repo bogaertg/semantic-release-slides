@@ -1,10 +1,4 @@
-<!-- .slide: -->
 
-# Semantic Release 
-
-![center](./assets/images/fusion.png)
-
-##==##
 <!-- .slide: class="quote-slide" -->
 
 # Goal
@@ -31,18 +25,17 @@ Notes:@antoine
 - 16.3k ⭐️ 
 - Used by 62.9k 
 - Contributors 187
-- 2014 
+- 2014
 - v19.0.5
-- Targets: npm, maven, terraform, python, ... 
 <!-- .element: class="list-fragment" -->
 
 Notes: @antoine
-* C'est un projet opensource hébergé sur github
-* C'est écrit en javascript
-* Il a 16.3k ⭐️ sur Github
-* Il est utilisé par 62.9k projets
-* Il a 187 contributeurs
-* Il a été créé en 2014
+* Projet opensource hébergé sur Github
+* écrit en javascript
+* 16.3k ⭐️ sur Github
+* Utilisé par 62.9k projets
+* 187 contributeurs
+* Créé en 2014
 * La dernière version est la 19.0.5
 
 * Transition: Alors... comment ça marche ?
@@ -76,7 +69,7 @@ semantic release va rechercher le dernier tag git sur la branche sélectionnée 
 
 <br/>
 
-```text [1|3-4|5-6|7]
+```text [1|3-6|7]
  Found 2 commits since last release
  Start step "analyzeCommits" of plugin "@semantic-release/commit-analyzer"
  Analyzing commit: feat(api): send an email to the customer when a product is shipped
@@ -88,7 +81,8 @@ semantic release va rechercher le dernier tag git sur la branche sélectionnée 
 <!-- .element: class="big-code" -->
 
 Notes: @Antoine
-* analyse commit va analyser les commits avec conventional-changelog (par défaut angular) 
+* analyse commit va analyser les commits avec conventional-changelog (par défaut angular)
+* trouver 2 commits depuis le dernier tag
 * et déterminer le type de release (major, minor ou patch)
 
 ##==##
@@ -108,7 +102,9 @@ The next release version is 1.3.0
 <!-- .element: class="big-code" -->
 
 Notes: @Antoine
-* semantic release va ensuite déterminer la prochaine version en fonction du type de release
+* donc on a la version précédente (1.2.0)
+* on a le type de release (minor)
+* et on va calculer la prochaine version (1.3.0)
 
 ##==## 
 # Work in progress
@@ -132,7 +128,7 @@ Notes: @Antoine
 ![center h-600](./assets/images/github_release.png)
 
 Notes: @Antoine
-* et une release avec la release note  github ou gitlab
+* et une release avec la release note github ou gitlab
 
 ##==##
 
