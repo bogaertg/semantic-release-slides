@@ -10,6 +10,7 @@
   * node, maven, python , terraform, ...
 * Use formalized commit message convention to **document** changes in the codebase
 * **monorepo** support bring by community plugin
+<!-- .element: class="list-fragment" -->
 
 Notes: @Antoine
 * release complètement automatisée
@@ -26,14 +27,14 @@ Notes: @Antoine
 
 ##==##
 <!-- .slide: class="transition bg-pink" -->
-# Questions
+# Questions ？
 
 Notes: @Antoine
 * Questions ?
 
 ##==##
 <!-- .slide: class="transition bg-pink" -->
-# Merci
+# 🙏 Merci
 
 Notes: @Antoine
 * Merci pour votre attention

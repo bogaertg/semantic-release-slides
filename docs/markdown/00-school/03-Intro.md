@@ -10,7 +10,7 @@
   * "update core"
 * Deep dive in code 🤿
 
-Notes: @Gaetan
+Notes: 02:00 @Gaetan
 
 * Je vais vous raconter l'histoire
 * tout le monde concerné (dev, ops, )

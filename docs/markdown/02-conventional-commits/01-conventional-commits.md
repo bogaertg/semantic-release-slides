@@ -77,4 +77,4 @@ refactor: use a better way to do it
 Notes: @gaetan
 * Il y a d'autres types de commit, comme build, chore, ci, docs, style, refactor, perf, test qui n'impacte pas le code.
 
-* Transition: @antoine Et maintenant on va voir comment mixer les 2
+* Transition: Et maintenant on va voir comment mixer les 2  @antoine

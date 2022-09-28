@@ -2,5 +2,5 @@
 
 # Semantic Versioning
 
-Notes: @antoine
+Notes: 5:51:00 @antoine
 * Commencer par expliquer ce qu'est la convention semantic versioning

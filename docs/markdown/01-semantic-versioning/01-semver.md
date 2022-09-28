@@ -29,18 +29,11 @@ Notes: @antoine
 <!-- .element: class="list-fragment" -->
 
 Notes: @antoine
-* Si commit contient au moins un fixes, mais pas de breaking change ni de feature
-* PATCH ++ (ou fix)
-* MàJ version sans risque, c'est même conseillé
-* -conseiller- de lire la release note
-
-* Si commit contient au moins une feature, mais pas de breaking change
-* MINOR ++ (ou feature)
-* Pas obligé de mettre à jour, mais vous pouvez.  
-* -conseiller- de lire la release note.
-
-* Si un commit au moins un breaking change
-* MAJOR ++ (ou breaking change)
+* Si commit contient au moins un fixes, mais pas de breaking change ni de feature =>  PATCH ++ (ou fix)
+* MàJ version sans risque, c'est même conseillé // -conseiller- de lire la release note
+* Si commit contient au moins une feature, mais pas de breaking change => MINOR ++ (ou feature)
+* Pas obligé de mettre à jour, mais vous pouvez. // -conseiller- de lire la release note.
+* Si un commit au moins un breaking change => MAJOR ++ (ou breaking change)
 * Dans ce cas, vous -devez- lire la release notes avant de passer sur la nouvelle version
 
 Transition: Cette norme contient quelques règles

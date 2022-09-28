@@ -1,7 +1,7 @@
 <!-- .slide: class="transition bg-pink" -->
 # Demo
 
-Notes: @Gaetan
+Notes: 32:00:00 @Gaetan
 * On va maintenant voir comment ça fonctionne en pratique
 
 ##==##
@@ -37,13 +37,16 @@ Notes: @Gaetan
 * let the magic begin! 🪄
 
 Notes: @Gaetan
-* Transition: @antoine
+
 
 ##==##
 # Demo
 ## Scenario 2
 
 <video style="padding:auto" height="600px" controls src="./assets/videos/demo2.mp4"></video>
+
+Notes: @Gaetan
+* Transition: @antoine
 
 ##==##
 # To go further
@@ -81,7 +84,7 @@ or
 
 Notes: @Antoine
 * Il est fortement recommandé d'intégrer semantic release dans votre CI/CD
-* On peut l'activer sur chaque commit ou en daily/weekly
+* A activer sur chaque commit OU en daily/weekly
 * Ici un exemple avec une Github Action
 * Vous pouvez aussi utiliser un outil comme release-that qui va gérer la release pour vous sans fichier de configuration.
 
@@ -94,7 +97,6 @@ Notes: @Antoine
     * Lint your commits
   * commitizen
     * CLI to easily generate commit messages
-
 * Compatible with 
   * Dependabot
   * Renovate
