@@ -32,7 +32,7 @@ fix: add missing HTTP header
 
 - feature
 ```text
-feat(api): send an email to the customer when a product is shipped
+feat: send an email to the customer when a product is shipped
 ```
 <!-- .element: class="big-code" -->
 

@@ -72,7 +72,7 @@ semantic release va rechercher le dernier tag git sur la branche sélectionnée 
 ```text [1|3-6|7]
  Found 2 commits since last release
  Start step "analyzeCommits" of plugin "@semantic-release/commit-analyzer"
- Analyzing commit: feat(api): send an email to the customer when a product is shipped
+ Analyzing commit: feat: send an email to the customer when a product is shipped
  The release type for the commit is minor
  Analyzing commit: fix: allow provided config object to extend other configs
  The release type for the commit is patch
