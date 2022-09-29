@@ -26,6 +26,11 @@ Notes: @Antoine
 ![float-center h-500](./assets/images/qr-code.png)
 
 ##==##
+# Feedback
+
+![float-center h-500](./assets/images/qrcode_feedback_cloud_nord.png)
+
+##==##
 <!-- .slide: class="transition bg-pink" -->
 # Questions ？
 
