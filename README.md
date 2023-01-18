@@ -1,9 +1,9 @@
 # Slides
 
-👉 https://bogaertg.github.io/cloudnord-2022-semantic-release/#/
+👉 https://bogaertg.github.io/semantic-release-slides/#/
 
 # Example repositories
 
 | Techno | URL |
 |--|--|
-| Demo (npm) | https://github.com/bogaertg/cloudnord-2022-semantic-release-demo/releases |
+| Demo (npm) | thttps://github.com/bogaertg/semantic-release-demo/releases |
