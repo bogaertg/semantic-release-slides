@@ -1,4 +1,15 @@
 <!-- .slide -->
+# Some questions
+
+* Who use Git (Github, Gitlab, Bitbucket) ?
+* Who use Git tag ?
+* Who build a package and store it in a regsitry ?
+* Who already use semantic-release or equivalent ?
+<!-- .element: class="list-fragment" -->
+
+Notes: 02:00 @Antoine
+
+<!-- .slide -->
 # This is a story of ...
 
 * v3257 -> v3284 
