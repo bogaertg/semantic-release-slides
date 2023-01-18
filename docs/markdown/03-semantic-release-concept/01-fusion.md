@@ -22,21 +22,21 @@ Notes:@antoine
 
 - Open source
 - Written in javascript
-- 16.3k ⭐️ 
-- Used by 62.9k 
-- Contributors 187
+- 17.1k ⭐️ 
+- Used by 69.3k
+- Contributors 200
 - 2014
-- v19.0.5
+- v20.0.2
 <!-- .element: class="list-fragment" -->
 
 Notes: @antoine
 * Projet opensource hébergé sur Github
 * écrit en javascript
-* 16.3k ⭐️ sur Github
-* Utilisé par 62.9k projets
-* 187 contributeurs
+* 17.1k ⭐️ sur Github
+* Utilisé par 69.3k projets
+* 200 contributeurs
 * Créé en 2014
-* La dernière version est la 19.0.5
+* La dernière version est la 20.0.2
 
 * Transition: Alors... comment ça marche ?
   
@@ -148,3 +148,11 @@ Notes: @Antoine
 * et semantic release va mettre à jour la pull request avec les informations de la release
 
 Transition : @gaetan
+
+##==##
+# Disclaimer
+
+<p style="color:green;font-weight:bold">👍 Semantic release use conventional commit</p>
+<p style="color:red;font-weight:bold">👎 It doesn't enforce conventional commit</p>
+
+Notes: @Antoine

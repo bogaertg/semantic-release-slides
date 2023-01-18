@@ -1,14 +1,29 @@
 <!-- .slide -->
+# We want to know you 
+
+* Who uses Git (Github, Gitlab, Bitbucket) ?
+* Who uses Git tag ?
+* Who builds a package and store it in a registry ?
+* Who knows and uses semantic-release ?
+* Are you satisfied of your release process ?
+<!-- .element: class="list-fragment" -->
+
+Notes: 02:00 @Antoine
+
+##==##
+<!-- .slide -->
 # This is a story of ...
 
 * v3257 -> v3284 
-  * Pas de release notes 👎
-* Pas de changelog 👎
-* Code accessible 👍
+  * No release notes 👎
+* No changelog 👎
+* Available code  👍
   * "fix up"
   * "new feature"
   * "update core"
 * Deep dive in code 🤿
+<!-- .element: class="list-fragment" -->
+
 
 Notes: 02:00 @Gaetan
 
@@ -31,7 +46,6 @@ Notes: @Gaetan
 ##==##
 # Why ?
 
-- Painful, manual and long process
 - Heterogeneous tools
   - version maven plugin
   - npm version | lerna 
@@ -39,6 +53,8 @@ Notes: @Gaetan
 - Complex organization
   - mono / multi repository
   - workflow git
+- Painful, manual and long process
+<!-- .element: class="list-fragment" -->
 
 Notes: @gaetan
 
@@ -74,6 +90,5 @@ Notes: @gaetan
 * Il y a toute sortes de conventions de nommage de version.
 * Par exemple, basé sur les années, calver
 * Ou plus original comme pour Tex, qui utilise la valeur de π.
-* Et pour Windows,  (@antoine) Non, on avait dit qu'on ne parlerait pas de Windows.
 
 Transition @antoine

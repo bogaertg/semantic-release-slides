@@ -64,7 +64,7 @@ semantic-release || npm run release
 - name: Semantic Release
   uses: cycjimmy/semantic-release-action@v3.0.0
   with:
-    semantic_version: 19.0.2
+    semantic_version: 20.0.2
     extra_plugins: |
       @semantic-release/exec@6.0.3
     branches: |
@@ -79,7 +79,7 @@ semantic-release || npm run release
 or
 
 ```yaml
-- uses: rlespinasse/release-that@v1
+- uses: rlespinasse/release-that@v1.5.0
 ```
 
 Notes: @Antoine
@@ -100,6 +100,9 @@ Notes: @Antoine
 * Compatible with 
   * Dependabot
   * Renovate
+
+* Challengers
+  * https://github.com/googleapis/release-please
 
 Notes: @Antoine
 * commitlint =>  vérifier que vos commits respectent le pattern de commit
