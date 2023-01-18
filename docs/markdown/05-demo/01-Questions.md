@@ -20,15 +20,16 @@ Notes: @Antoine
 * utiliser une convention de commit pour documenter les changements dans le code
 
 ##==##
-# Slide 
-## URL
+<!-- .slide: class="two-column" -->
+## Slide
 
 ![float-center h-500](./assets/images/qr-code.png)
 
-##==##
-# Feedback
+##--##
 
-![float-center h-500](./assets/images/qrcode_feedback_cloud_nord.png)
+## Feedback
+
+![float-center h-500](./assets/images/feedback.png)
 
 ##==##
 <!-- .slide: class="transition bg-pink" -->

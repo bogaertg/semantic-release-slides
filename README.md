@@ -6,4 +6,4 @@
 
 | Techno | URL |
 |--|--|
-| Demo (npm) | thttps://github.com/bogaertg/semantic-release-demo/releases |
+| Demo (npm) | https://github.com/bogaertg/semantic-release-demo/releases |
