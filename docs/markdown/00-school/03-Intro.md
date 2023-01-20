@@ -46,6 +46,7 @@ Notes: @Gaetan
 ##==##
 # Why ?
 
+- Painful, manual and long process
 - Heterogeneous tools
   - version maven plugin
   - npm version | lerna 
