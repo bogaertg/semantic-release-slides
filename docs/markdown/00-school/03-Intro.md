@@ -46,14 +46,13 @@ Notes: @Gaetan
 ##==##
 # Why ?
 
+- Painful, manual and long process
 - Heterogeneous tools
   - version maven plugin
   - npm version | lerna 
   - bumpver 
-- Complex organization
-  - mono / multi repository
-  - workflow git
-- Painful, manual and long process
+- Complex organization (mono/multi repo)
+- workflow git
 <!-- .element: class="list-fragment" -->
 
 Notes: @gaetan
@@ -77,7 +76,7 @@ Notes: @gaetan
 # Convention naming
 
 - Ubuntu
-  - 21.04, 21.10, 22.04
+  - 21.04, 21.10, 22.04, 22.10, ...
 - Unity
   - 2022.1.0, 2022.1.1 , ... , 2022.1.16
 - Tex
