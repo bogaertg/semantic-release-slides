@@ -46,13 +46,13 @@ Notes: @Gaetan
 ##==##
 # Why ?
 
-- Painful, manual and long process
 - Heterogeneous tools
   - version maven plugin
   - npm version | lerna 
   - bumpver 
 - Complex organization (mono/multi repo)
 - workflow git
+
 <!-- .element: class="list-fragment" -->
 
 Notes: @gaetan
